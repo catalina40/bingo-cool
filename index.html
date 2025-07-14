@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bingo Musical</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>BINGO MUSICAL</h1>
+  <div id="bingo" class="grid"></div>
+  <div class="buttons">
+    <button onclick="cambiarTarjeta(-1)">Anterior</button>
+    <span id="contador"></span>
+    <button onclick="cambiarTarjeta(1)">Siguiente</button>
+  </div>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

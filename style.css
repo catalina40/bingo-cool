@@ -1,0 +1,60 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background: #f5f5f5;
+  text-align: center;
+  color: #4b1e2f;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cell {
+  background-color: #cc8da2;
+  color: white;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 30px 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cell:nth-child(5) {
+  background-color: #70253b;
+  font-size: 2rem;
+}
+
+.cell.tachado {
+  text-decoration: line-through;
+  background-color: #ddd;
+  color: #888;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  background-color: #70253b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a64d6a;
+}
